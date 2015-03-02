@@ -243,6 +243,3 @@ def print_lib_info():
     print "  Qt lib: %s" % QT_LIB
     print "  Qt ver: %s" % QtVersion
     print "  qt_backport emulation: %s" % QT_EMULATING
-
-if __debug__:
-    print_lib_info()
